@@ -1,11 +1,16 @@
 
+import Chai from "./Chai"
 
 function App() {
- 
 
   return (
-   <h1>react with vite | Sahitya Singh</h1>
-  )
+    <>
+    <Chai/>
+    <h2>chai aur react</h2>
+    <p> chai is love</p>
+    </>     
+    
+)  
 }
 
-export default App
+export default App 
