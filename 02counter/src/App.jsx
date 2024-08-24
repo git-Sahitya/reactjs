@@ -5,10 +5,16 @@ import './App.css'
 
 function App() {
 
-   let [card , setCard]= useState(7)
+   let [card , setCard]= useState(4)
 
 const addValue = () => {
- setCard(card + 1)
+ //setCard(card + 1)
+ setCard(prevCard => prevCard + 1)
+ setCard(prevCard => prevCard + 1)
+ setCard(prevCard => prevCard + 1)
+ setCard(prevCard => prevCard + 1)
+ setCard(prevCard => prevCard + 1)
+  
 
 }
 
