@@ -9,6 +9,7 @@ function App() {
 
 const addValue = () => {
  setCard(card + 1)
+
 }
 
 const removeValue = () => {
