@@ -5,13 +5,14 @@ import './App.css'
 
 function App() {
   const [value, setValue] = useState(1)
-
-  const [multipliedValue, setMultipliedValue] = useState(1)
+ // const [multipliedValue, setMultipliedValue] = useState(1)
+ // Another method... without using state 
+ let multipliedValue = value * 5
   const [addValue, setAddValue] = useState(1)
    
 
   const multiplybyfive = () => {
-      setMultipliedValue(value * 5)
+     // setMultipliedValue(value * 5)
       setValue (value + 1)
   }
 
